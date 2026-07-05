@@ -1,0 +1,87 @@
+.container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #17e68f;
+  cursor: pointer;
+  }
+button:hover {
+  background-color: green;
+  color: white;
+}
+/* TASK ITEM */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* LEFT SIDE */
+.task-left {
+  flex: 1;
+  text-align: left;
+}
+
+/* RIGHT SIDE (FIXED WIDTH = NO JUMPING) */
+.task-right {
+  display: flex;
+  gap: 8px;
+  min-width: 150px; /* 🔥 KEY FIX */
+  justify-content: flex-end;
+}
+
+/* TEXT */
+.task-text {
+  font-size: 16px;
+}
+
+/* EDIT INPUT */
+.edit-input {
+  width: 90%;
+  padding: 6px;
+}
+
+/* BUTTON COLORS */
+.edit-btn {
+  background:  #17e68f;
+}
+
+.delete-btn {
+  background:  #17e68f;
+}
+
+.save-btn {
+  background:  #17e68f;
+  color: white;
+}
+
+.cancel-btn {
+  background:  #17e68f;
+  color: white;
+}

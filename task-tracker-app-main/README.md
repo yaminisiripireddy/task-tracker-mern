@@ -1,0 +1,1 @@
+Full-stack Task Tracker web application developed using MERN stack. Includes CRUD operations, REST APIs, MongoDB integration, and React-based responsive UI. Built as part of internship technical assignment.
